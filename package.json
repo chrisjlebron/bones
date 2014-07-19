@@ -5,5 +5,6 @@
   "homepage": "http://chrisjlebron.com",
   "version": "0.0.1",
   "devDependencies": {
+    "gulp": "^3.8.6"
   }
 }

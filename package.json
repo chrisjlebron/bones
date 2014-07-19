@@ -6,6 +6,10 @@
   "version": "0.0.1",
   "devDependencies": {
     "gulp": "^3.8.6",
+    "gulp-concat": "^2.3.3",
+    "gulp-jshint": "^1.7.1",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^0.7.2",
     "gulp-uglify": "^0.3.1"
   }
 }

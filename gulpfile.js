@@ -1,8 +1,12 @@
-var gulp = require('gulp');
+var gulp = require('gulp'),
+   uglify = require('gulp-uglify');
 
-gulp.task('default', function() {
-  // place code for your default task here
+gulp.task('minify-js', function () {
+   gulp.src('library/js/*.js')
+      .pipe(uglify())
+      .pipe(gulp.dest('build'));
 });
+
 
 // var watcher = gulp.watch(['library/js/**/*.js','library/scss/**/*.scss'], ['uglify','reload']);
 // watcher.on('change', function(event) {

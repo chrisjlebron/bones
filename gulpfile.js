@@ -28,7 +28,10 @@ gulp.task('modernizr', function () {
 
 gulp.task('sass', function () {
   return gulp.src('library/scss/**/*.scss')
-    .pipe(sass())
+    .pipe(sass({
+      'errLogToConsole': true,
+      'outputStyle': 'compressed'
+    }))
     .pipe(gulp.dest('build/css'));
 });
 

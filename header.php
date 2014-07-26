@@ -11,7 +11,7 @@
 		<?php // force Internet Explorer to use the latest rendering engine available ?>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-		<title><?php wp_title(''); ?></title>
+		<title><?php wp_title('|'); ?></title>
 
 		<?php // mobile meta (hooray!) ?>
 		<meta name="HandheldFriendly" content="True">
@@ -46,6 +46,8 @@
 			<header class="header" role="banner">
 
 				<div id="inner-header" class="wrap cf">
+
+					<img src="<?php echo get_template_directory_uri(); ?>/library/images/jules.png" alt="A Doodle of Jules"  class="jules-avatar"/>
 
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
 					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>

@@ -70,7 +70,7 @@ LAYOUT & GRID STYLES
 *********************/
 
 .wrap {
-	width: 96%;
+	width: 92%;
 	margin: 0 auto;
 }
 
@@ -163,6 +163,12 @@ HEADER STYLES
 		}
 	}
 
+	.jules-avatar {
+		float: right;
+		height: 6.5em;
+		margin: 1em .5em 0;
+	}
+
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -185,7 +191,8 @@ and more scalable.
 			display: block;
 			color: $white;
 			text-decoration: none;
-			padding: 0.75em;
+			padding: .75em;
+			padding-left: 0;
 			font-size: 1.2em;
 
 			/*

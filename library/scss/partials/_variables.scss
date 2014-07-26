@@ -22,13 +22,22 @@ $alert-red:         #fbe3e4;
 $alert-green:       #e6efc2;
 $alert-blue:        #d5edf8;
 
-$black:             #323944;
+// $black:             #323944;
+$dark-blue:         #323944;
 $white:             #fff;
+
+$jules-green:       #379580;
+$jules-light-green: #9fd2c8;
+$jules-brown:       #80625c;
+$jules-light-brown: #b09791;
 
 $light-gray:        #f8f9fa;
 $gray:              #eaedf2;
-$text-color:        #5c6b80;
-$meta-gray:         #9fa6b4;
+// $text-color:        #5c6b80;
+// $meta-gray:         #9fa6b4;
+$text-color:        $jules-brown;
+$meta-color:        $jules-light-brown;
+$body-color:        #eaf2f0;
 
 $tan:               #eceee5;
 
@@ -37,7 +46,7 @@ $green:             #7dd667;
 $bones-pink:        #f01d4f;
 $blue:              #2980b9;
 
-$link-color:        $bones-pink;
+$link-color:        $jules-green;
 $link-hover:        darken($link-color, 9%);
 
 $border-color:      #ccc;

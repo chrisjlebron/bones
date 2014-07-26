@@ -20,7 +20,7 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 	color: $text-color;
-	background-color: $gray;
+	background-color: $body-color;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -152,11 +152,11 @@ HEADER STYLES
 *********************/
 
 .header {
-	background-color: $black;
+	background-color: $jules-light-green;
 }
 
 	#logo {
-		margin: 0.75em 0;
+		margin: 0.5em 0;
 
 		a {
 			color: $white;
@@ -186,6 +186,7 @@ and more scalable.
 			color: $white;
 			text-decoration: none;
 			padding: 0.75em;
+			font-size: 1.2em;
 
 			/*
 			remember this is for mobile ONLY, so there's no need
@@ -302,7 +303,7 @@ POSTS & CONTENT STYLES
 
 		/* post meta */
 		.byline {
-			color: $meta-gray;
+			color: $meta-color;
 			font-style: italic;
 			margin: 0;
 
@@ -340,20 +341,20 @@ POSTS & CONTENT STYLES
 
 			table {
 				width: 100%;
-				border: 1px solid $gray;
+				border: 1px solid $body-color;
 				margin-bottom: 1.5em;
 
 				caption {
 					margin: 0 0 7px;
 					font-size: 0.75em;
-					color: $meta-gray;
+					color: $meta-color;
 					text-transform: uppercase;
 					letter-spacing: 1px;
 				}
 			}
 
 			tr {
-				border-bottom: 1px solid $gray;
+				border-bottom: 1px solid $body-color;
 
 				&:nth-child(even) {
 					background-color: $light-gray;
@@ -362,7 +363,7 @@ POSTS & CONTENT STYLES
 
 			td {
 				padding: 7px;
-				border-right: 1px solid $gray;
+				border-right: 1px solid $body-color;
 
 				&:last-child {
 					border-right: 0;
@@ -371,8 +372,8 @@ POSTS & CONTENT STYLES
 
 			th {
 				background-color: $light-gray;
-				border-bottom: 1px solid $gray;
-				border-right: 1px solid $gray;
+				border-bottom: 1px solid $body-color;
+				border-right: 1px solid $body-color;
 
 				&:last-child {
 					border-right: 0;
@@ -384,7 +385,7 @@ POSTS & CONTENT STYLES
 				padding: 0 0 0 0.75em;
 				border-left: 3px solid $blue;
 				font-style: italic;
-				color: $meta-gray;
+				color: $meta-color;
 
 				&:before {}
 
@@ -427,7 +428,7 @@ POSTS & CONTENT STYLES
 			}
 
 			pre {
-				background: $black;
+				background: $jules-light-green;
 				color: $light-gray;
 				font-size: 0.9em;
 				padding: 1.5em;
@@ -513,7 +514,7 @@ PAGE NAVI STYLES
       float: left;
       display: inline;
       overflow: hidden;
-      border-right: 1px solid $gray;
+      border-right: 1px solid $body-color;
     }
 
     a, span {
@@ -621,7 +622,7 @@ COMMENT STYLES
 			font-style: italic;
 
 			a {
-				color: $meta-gray;
+				color: $meta-color;
 				text-decoration: none;
 
 				&:hover {
@@ -768,7 +769,7 @@ COMMENT FORM STYLES
 	}
 
 	.logged-in-as {
-		color: $meta-gray;
+		color: $meta-color;
 		font-style: italic;
 		margin: 0;
 
@@ -861,7 +862,7 @@ FOOTER STYLES
 
 .footer {
 	clear: both;
-	background-color: $black;
+	background-color: $jules-light-green;
 	color: $light-gray;
 }
 

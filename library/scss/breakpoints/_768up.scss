@@ -42,7 +42,7 @@ NAVIGATION STYLES
 .nav {
 	border: 0;
 	ul {
-		background:$black;
+		background:$jules-light-green;
 		margin-top:0;
 	}
 	li {
@@ -146,7 +146,7 @@ SIDEBARS & ASIDES
 }
 
 	.widgettitle {
-		border-bottom: 2px solid #444;
+		border-bottom: 2px solid $jules-brown;
 		margin-bottom: 0.75em;
 	}
 
@@ -284,4 +284,3 @@ mobile. Make sure to double check these!
 		}
 	}
 } /* end .footer-links */
-

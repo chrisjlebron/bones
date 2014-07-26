@@ -797,7 +797,7 @@ COMMENT FORM STYLES
 
 	/* comment submit button */
 	#submit {
-		@extend .blue-btn;
+		@extend .btn-main;
 		float: right;
 		font-size: 1em;
 	}

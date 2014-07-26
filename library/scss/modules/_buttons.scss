@@ -72,3 +72,17 @@ and it will create a button dependant on those variables.
   } // end active
 
 } // end blue button
+
+.btn-main {
+  @extend %btn; // here we load the btn defaults
+  background-color: $jules-brown;
+
+  &:hover,
+  &:focus {
+    background-color: darken($jules-brown, 4%);
+  } // end hover
+
+  &:active {
+    background-color: darken($jules-brown, 5%);
+  } // end active
+}

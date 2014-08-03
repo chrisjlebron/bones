@@ -210,7 +210,8 @@ and more scalable.
 			text-decoration: none;
 			padding: .75em;
 			padding-left: 0;
-			font-size: 1.2em;
+			font-size: 1.1em;
+			font-weight: 700;
 
 			/*
 			remember this is for mobile ONLY, so there's no need
@@ -346,20 +347,40 @@ POSTS & CONTENT STYLES
 			ul, ol, table, dl {}
 
 			ul, ol {
+				counter-reset: li;
+				margin-left: .75em;
 
-				li {}
+				li {
+					position: relative;
+					padding-left: 1.25em;
+
+					&:before {
+				    counter-increment:li; /* Increment the counter by 1 */
+						position: absolute;
+						top: 0;
+						left: 0;
+						font-weight: bold;
+					}
+				}
 
 			}
 
 			ul {
-
-				li {}
+				li {
+					&:before {
+						content:"\25CF"; /* Use the counter as content */
+					}
+				}
 
 			}
 
 			ol {
 
-				li {}
+				li {
+					&:before {
+						content:counter(li) "."; /* Use the counter as content */
+					}
+				}
 
 			}
 

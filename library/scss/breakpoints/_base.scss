@@ -16,7 +16,7 @@ GENERAL STYLES
 *********************/
 
 body {
-	font-family: $lato;
+	font-family: $open-sans;
 	font-size: 100%;
 	line-height: 1.5;
 	color: $text-color;
@@ -106,9 +106,14 @@ a, a:visited {
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+	margin-top: 0;
+}
+
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+	font-family: $patua-one;
 	text-rendering: optimizelegibility;
-	font-weight: 500;
+	font-weight: 400;
 	/*
 	if you're going to use webfonts, be sure to check your weights
 	http://css-tricks.com/watch-your-font-weight/
@@ -126,25 +131,37 @@ h1, .h1 {
 }
 
 h2, .h2 {
-	font-size: 1.75em;
+	font-size: 1.8596em;
 	line-height: 1.4em;
-	margin-bottom: 0.375em;
+	// margin-bottom: 0.375em;
 }
 
 h3, .h3 {
-	font-size: 1.125em;
+	font-size: 1.4302em;
+	line-height: 1.3;
 }
 
 h4, .h4 {
 	font-size: 1.1em;
-	font-weight: 700;
+	line-height: 1.4;
+	// font-weight: 700;
 }
 
 h5, .h5 {
 	font-size: 0.846em;
-	line-height: 2.09em;
+	// line-height: 2.09em;
 	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing: .5px;
+}
+
+h6, .h6 {
+	// Font Family matches body type
+	font-size: .9em;
+	font-weight: 700;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+	margin-bottom: 1em;
 }
 
 /*********************

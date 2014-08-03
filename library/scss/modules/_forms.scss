@@ -51,7 +51,7 @@ textarea,
   border: 0;
   width: 100%;
   max-width: 400px;
-  font-family: $lato;
+  font-family: $open-sans;
   background-color: $body-color;
   @include transition(background-color 0.24s ease-in-out);
 
@@ -121,5 +121,3 @@ select {
   background-repeat: no-repeat;
   background-position: 97.5% center;
 }
-
-
